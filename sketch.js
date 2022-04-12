@@ -45,8 +45,8 @@ async function getBackgroundImg(){
     var responseType= await response.json();
      console.log(responseType.datetime); 
     var datetime=responseType.datetime;
-     var hr=datetime.slice(11,13); 
-     console.log(hr);
+     var hOUr=datetime.slice(11,13); 
+     console.log(hour);
 
     // write code to fetch time from API
     
